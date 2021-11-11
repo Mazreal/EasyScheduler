@@ -19,6 +19,19 @@ public class Employee {
     private Date birthday;
     private String username;
     private String password; 
+
+    public Employee(int employee_ID, String firstName, String lastName, String phone, Date birthday, String username, String password) {
+        this.employee_ID = employee_ID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.birthday = birthday;
+        this.username = username;
+        this.password = password;
+    }
+
+    public Employee() {
+    }
     
     public int getEmployee_ID() {
         return employee_ID;
